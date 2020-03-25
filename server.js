@@ -24,7 +24,7 @@ http.createServer((req, res) => {
     }, (err, r, body) => {
       console.log('dasdasdsadsa',body)
       res.writeHead(301, {
-        'Location': 'http://localhost:3001?' + body
+        'Location': 'https://githubissue.netlify.com/?' + body
       });
       res.end();
     })
